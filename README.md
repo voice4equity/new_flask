@@ -1,6 +1,4 @@
-# new_flask
-
-Bootstrapped with `new_flask.sh`.
+# Flask Setup
 
 ## Development Setup
 
@@ -56,6 +54,6 @@ pytest
 For production, remember to:
 1. Set a strong `SECRET_KEY` in the `.env` file
 2. Set `FLASK_DEBUG=0` in the `.env` file
-3. Use a proper database (PostgreSQL recommended)
+3. Use a proper database (PostgreSQL or SQLite work great)
 4. Build the CSS for production: `npm run build`
 

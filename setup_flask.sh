@@ -6,6 +6,7 @@
 # TODO: Create command line option to allow user to choose between python venv or pyenv
 # TODO: Add cat.py implementation with an instruction readme
 #   as the virtual environment manager
+# TODO: Ask about HTMX and Tailwind setup (can include or skip)
 set -uo pipefail
 
 # ---- derive project name ---------------------------------------------------
